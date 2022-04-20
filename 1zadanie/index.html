@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact Form | Coding</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+    <body>
+        <div class="wrapper">
+            <header>Отправка сообщения</header>
+            <form action="#">
+
+                <div class="dbl-field">
+
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Ваше имя">
+                            <i class='fas fa-user'></i>
+                        </div>
+
+                    <div class ="field">
+                        <input type="text"  name="email" placeholder="Введите свой email">
+                        <i class="material-icons">email</i>
+                    </div>
+
+                </div>
+
+                <div class="dbl-field">
+                    <div class ="field">
+                        <input type="text"  name="phone" placeholder="Введите свой номер телефона">
+                        <i class="material-icons">phone</i>
+                    </div>
+
+                    <div class ="field">
+                        <input type="text"  name="website" placeholder="Введите свой веб-сайт">
+                        <i class="material-icons">website</i>
+                        
+                    </div>
+                </div>
+
+                 <div class="message">
+                     <textarea placeholder="Напишите свое сообщение" name="message" ></textarea>
+                     <i class="material-icons">message</i>
+                </div>
+                
+                <div class="button-area">
+                <button type="submit">Отправить сообщение</button>
+                <span> Отправка вашего сообщения...</span>
+                </div>
+            </form>
+        </div>
+
+        <script src="scripts.js"></script>
+
+    </body>
+</html>
